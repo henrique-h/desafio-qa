@@ -1,0 +1,31 @@
+url_site: 'https://www.phptravels.net/supplier'
+
+#elementos login
+campo_email: 'input[name=email]'
+campo_password: 'input[name=password]'
+btn_login: '.btn'
+label_usuario: 'div[class=user]'
+
+#data LOGIN usuario valido
+login_usuario: 'supplier@phptravels.com'
+login_senha: 'demosupplier'
+
+
+#elementos de cadastro
+label_inicial_room_type: 'span[class=select2-chosen]'
+label_selecionavel_room_type: 'div[class=select2-result-label]'
+
+campo_descricao: iframe[title="Rich Text Editor, roomdesc"]
+
+campo_preco: 'input[name=basicprice]'
+campo_quantidade: 'input[name=quantity]'
+campo_estadia_minima: 'input[name=minstay]'
+campo_adultos: 'input[name=adults]'
+campo_criancas: 'input[name=children]'
+campo_camas_extras: 'input[name=extrabeds]'
+campo_camas_extras_taxas: 'input[name=bedcharges]'
+
+label_check_amenidades: 'label[class=pointer]'
+caixa_check_amenidades: 'div[class=icheckbox_square-grey]'
+btn_submit: 'button[id=add]'
+label_mensagem_sucesso: 'h4[class=ui-pnotify-title]'
